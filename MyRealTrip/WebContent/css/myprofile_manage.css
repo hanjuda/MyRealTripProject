@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+
+	#myprofile_main_size01{
+	width:100%; 
+	height:1134px;
+	}
+	#myprofile_main_size01 > div{
+	width:1060px; 
+	height:1134px; 
+	padding:50px 0 102px 0; 
+	margin: 0 auto;
+	}
+
+	#myprofile_main_size01 .mypoint01{
+	font-size: 14px;
+	display: inline-block;
+    text-align: left;
+    width:83.188px;
+    height:21px;
+    font-weight: 500;
+    color: #515151;
+    
+	}
+	#myprofile_main_size01 .comfren{
+	display:blork;
+	color: #343a40;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    }
+	#profile01{
+	width:708px;
+	height : 668px;
+	padding:50px 40px 40px 40px;
+	position : relative;
+	}
+	#main002{
+	width:790px;
+	height:760.5px;
+	background-color: #fff;
+    border-radius: 4px;
+    border: solid 1px #dee2e6;
+    margin-bottom: 8px;
+	
+	}
+	#edit_profile01{
+	font-weight: 600;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    width: 70px;
+    z-index: 0;
+    background-color: #fff;
+    border: solid 1px #ced4da;
+    color: #495056 !important;
+    font-size: 13px;
+    height: 32px;
+    line-height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    cursor : pointer;
+	}
+	#myprofile_main_size01 .picture010{
+	width:100%;
+	height:137px;
+	margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+	
+	}
+	#profile01 .textfont001{
+	font-weight: 600;
+	color:#495056;
+	font-size:14px;
+	}
+	#profile01 .textfont002{
+	font-size:14px;
+	font-weight: 500;
+	color:#495056;
+	}
+	#profile01 .imgicon001{
+	height: 18px;
+    margin-right: 8px;
+    width: 18px;
+    border-width: 0;
+    vertical-align: middle;
+	}
+	#main002 .acount01{
+	margin-top: 0;
+	color: #495056;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+	}
+	#myprofile_main_size01 .profile_management{
+	color: #495056;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 17px;
+	}
+	#myprofile_main_size01 .mypofile_flex_01{
+	width:100%; 
+	height:415px; 
+	display:flex;
+	justify-content: space-between;
+	}
+	.myprofile_flex_01 > div{
+	width:250px; height:415px;
+	}
+	#myprofile_main_size01 .border_box_left01{
+	width:228px; 
+	height:176px;
+	padding: 42px 10px 30px 10px; 
+	border: solid 1px #dee2e6;
+	border-radius: 4px;
+	margin-bottom:8px;
+	}
+	#myprofile_main_size01 .profile_box02{
+	width:228px;
+	height:80px;
+	text-align: center;
+	}
+	#myprofile_main_size01 .pangsu_img_size_01{
+	width:80px; 
+	height:80px;
+	padding-left: 75px;
+	}
+	#myprofile_main_size01 .profile_myname01{
+	width:228px; 
+	height:27px;
+	font-size: 18px;
+	font-weight: 600; 
+	margin: 11px 0 23px; 
+	text-align:center;
+	}
+	#myprofile_main_size01 .profile_management02{
+	width:228px; 
+	height:21px; 
+	text-align:center;
+	line-height: 1.5;
+	}
+	#myprofile_main_size01 .profile_management02_img{
+	width:11px;
+	height:11px;
+	margin-bottom: 1px;
+	margin-right: 4px;
+	}
+	#myprofile_main_size01 .profile_management02_font{
+	font-size: 14px;
+	font-weight: 500; 
+	color: #515151;
+	}
+	#myprofile_main_size01 .border_box_left02{
+	width:208px; 
+	height:63px;
+	padding:13px 20px 13px 20px;
+	border: solid 1px #dee2e6;
+	border-radius: 4px; 
+	margin-bottom: 8px; 
+	display : flex; 
+	flex-direction : column;
+	justify-content:center;
+	}
+	#myprofile_main_size01 .myflex_01{
+	display : flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-bottom: 10px;
+	}
+	#myprofile_main_size01 .nomoney01{
+	font-weight: 700 ;
+	color:#2b96ed;
+	}
+	#myprofile_main_size01 .myprofile_img_gift{
+	width:16px; 
+	height : 16px;
+	vertical-align: bottom;
+	}
+	#myprofile_main_size01 .myprofile_coupon_num{
+	font-weight: 700 ;
+	color:#2b96ed;
+	}
+	#myprofile_main_size01 .flex_copon{
+	display : flex;
+	justify-content: space-between; 
+	width: 100%;	
+	}
+	#myprofile_main_size01 .myprofile_box_left03{
+	width:248px; 
+	height:24px;
+	padding:16px 0 16px; 
+	margin: 8px 0 8px;
+	border: solid 1px #dee2e6;
+	border-radius: 4px;
+	}
+	#myprofile_main_size01 .gifticonimg_style{
+	width:24px;
+	height:24px;
+	margin-left:8px;
+	vertical-align: middle;
+	}
+	#myprofile_main_size01 .myprofile_event01{
+	font-size: 14px;
+	font-weight: 500;
+	}
+	#profile01 > div{
+	width:708px; 
+	height:643.500px;
+	}
+	#myprofile_main_size01 .img_bigpangsu{
+	width:98px;
+	height:98px;
+	}
+	#myprofile_main_size01 .profile_myname03{
+	height:24px;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 15px;
+	color:#495056;
+	}
+	#myprofile_main_size01 .profile_fix_size02{
+	width:708px;
+	height:29px;
+	margin-bottom:29px;
+	}
+	#myprofile_main_size01 .profile_fix_size{
+	width:708px; 
+	height:456.500px;
+	}
+	#myprofile_main_size01 .profile_fix_size_in01{
+	width:708px; 
+	eight:456.500px;
+	height: 29px;
+	margin-bottom:25px;
+	}
+	#myprofile_main_size01 .textfont001_add{
+	width:112px;
+	height:27px;
+	float:left;
+	}
+	#myprofile_main_size01 .textfont001_add2{
+	width:132px;
+	height:27px;
+	float:left;
+	}
+	#myprofile_main_size01 .textfont002_add01{
+	width:157.892px;
+	height:27px;
+	float:left;
+	}
+	#myprofile_main_size01 .textfont_add02{
+	margin-left:16px;
+	color: #2b96ed;
+	}
+	#myprofile_main_size01 .textfont_add03{
+	font-size:12px; 
+	margin-left:16px;
+	color: #33b893;
+	}
+	#myprofile_main_size01 .profile_fix_size03{
+	width:708px;
+	height:114.500px;
+	margin-bottom:29px;
+	}
+	#myprofile_main_size01 .profile_fix_size04{
+	width:586px;
+	height:114.500px; 
+	padding-left:112px;
+	}
+	#myprofile_main_size01 .profile_fix_size05{
+	width:586px;
+	height:114.500px;
+	}
+	#myprofile_main_size01 .profile_fix_size06{
+	width:586px;
+	height:27.5px;
+	margin-bottom:16px;
+	display:flex;
+	justify-content: space-between; 
+	}
+	#myprofile_main_size01 .profile_fix_size07{
+	width:586px;
+	height:114.500px;
+	}
+	#myprofile_main_size01 .textfont_add04{
+	width:115px;
+	height:27px;
+	}
+	#myprofile_main_size01 .profile_fix_size08{
+	width:586px;
+	height:27.5px;
+	margin-bottom:16px;
+	display:flex;
+	justify-content: space-between;
+	}
+	#myprofile_main_size01 .textfont_add05{
+	width:115px;
+	height:27px;
+	}
+	#myprofile_main_size01 .profile_fix_size09{
+	width:586px;
+	height:114.500px;
+	}
+	#myprofile_main_size01 .profile_fix_size10{
+	width:586px;
+	height:27.5px;
+	margin-bottom:16px;
+	display:flex;
+	justify-content: space-between;
+	}
+	#myprofile_main_size01 .textfont_add06{
+	width:115px;
+	height:27px;
+	}
+	#myprofile_main_size01 .profile_fix_size11{
+	width:708px; 
+	height: 29px;
+	margin-bottom:25px;
+	}
+	#myprofile_main_size01 .textfont_add07{
+	width:122px;
+	float:left;
+	}
+	#myprofile_main_size01 .profile_fix_size12{
+	width:708px; 
+	height: 101px;
+	margin-bottom:25px;
+	}
+	#myprofile_main_size01 .textfont_add08{
+	width:122px; 
+	float:left;
+	}
+	#myprofile_main_size01 .textfont_add09{
+	margin-left:112px;
+	}
+	#myprofile_main_size01 .textfont_add10{
+	margin-left:122px;
+	margin-top: 10px;
+	}
+	#myprofile_main_size01 .profile_fix_size15{
+	width:790px; 
+	height:160px;
+	border: solid 1px #dee2e6;
+	border-radius: 4px;
+	margin-top: 11px;
+	}
+	#myprofile_main_size01 .profile_fix_size13{
+	width:708px; 
+	height:94px;
+	padding:32px 40px;
+	}
+	#myprofile_main_size01 .profile_fix_size14{
+	width:708px;
+	height:56px;
+	display:flex;
+	border-bottom: 1px solid #e9ecef;
+	align-items: center;
+	}
+	#myprofile_main_size01 .return_money_acount{
+	color: #343a40;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	}
+	#myprofile_main_size01 .no_acount01{
+	flex: 1;
+	font-size: 14px;
+	text-align:center;
+	color: #848c94;
+	}
+	
+

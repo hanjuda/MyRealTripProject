@@ -1,0 +1,155 @@
+@charset "UTF-8";
+#mytrip_main{
+	width:1060px;
+	margin: 0 auto;
+}
+#mytrip_main2{
+	width:1060px;
+	margin: 0 auto;
+}
+
+#mytrip_main .mytrip_main2{
+	margin:40px 0 80px; 
+}
+#mytrip_main .main2{
+	width:1060px;
+	display:flex;
+	justify-content: space-between;
+}
+
+#mytrip_main .trip_menu{
+	width:248px;
+	height:138px;
+	border: 1px solid #e9ecef;
+	border-radius: 4px;
+	display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    
+}
+#mytrip_main .gotrip{
+	height: 64px;
+    display: flex;
+    padding: 24px 0px 24px 24px;
+}
+#mytrip_main .gotrip:hover{
+	background:#f5f6f7;
+}
+#mytrip_main .gotrip_span1{
+	font-weight: bold;
+	font-size: 16px;
+}
+#mytrip_main .img_size{
+	width:58px;
+	height:58px;
+	margin:32px 0;
+}
+#mytrip_main .trip_menu2{
+	width:790px;
+	height:58px;
+	text-align: center;
+}
+#mytrip_main .p1{
+	margin: 0px auto 8px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #343a40;
+}
+#mytrip_main .p2{
+    color: #848c94;
+}
+#mytrip_main2 .mytrip_main2{
+	margin:40px 0 80px; 
+}
+#mytrip_main2 .main2{
+	width:1060px;
+	display:flex;
+	justify-content: space-between;
+}
+
+#mytrip_main2 .trip_menu{
+	width:248px;
+	height:138px;
+	border: 1px solid #e9ecef;
+	border-radius: 4px;
+	display: flex;
+    flex-direction: column;
+    cursor:pointer;
+    
+}
+#mytrip_main2 .gotrip{
+	height: 64px;
+    display: flex;
+    padding: 24px 0px 24px 24px;
+}
+#mytrip_main2 .gotrip:hover{
+	background:#f5f6f7;
+}
+#mytrip_main2 .gotrip_span1{
+	font-weight: bold;
+	font-size: 16px;
+}
+#mytrip_main2 .img_size{
+	width:58px;
+	height:58px;
+	margin:32px 0;
+}
+#mytrip_main2 .trip_menu2{
+	width:790px;
+	height:58px;
+	text-align: center;
+}
+#mytrip_main2 .p1{
+	margin: 0px auto 8px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #343a40;
+}
+#mytrip_main2 .p2{
+    color: #848c94;
+    margin:0;
+    font-size: 14px;
+}
+	.pay_box_container{
+		display : flex;
+		justify-content: space-between;
+		border-bottom : 1px solid #51abf3;
+		padding-bottom : 20px;
+	}
+	.pay_box_container img{
+		width: 200px;
+	}
+	.pay_content_box{
+		width : 500px;
+		line-height: 1.4;
+	}
+	.pay_content_box>div{
+		font-weight : bold;
+		font-size: 17px;
+	}
+	textarea{
+		resize: none;
+		width: 300px;
+		border : 0;	
+		font-weight : bold;
+		font-size: 17px;
+		overflow : hidden;
+	}
+	textarea:focus{
+		outline:none;
+	}
+	.cancel{
+		background-color: #51abf3;
+	    border: 1px solid #51abf3;
+	    color: #fff;
+	    cursor: pointer;
+	    height: 30px;
+	    width: 85px;
+	    border-radius: 5px;
+	}

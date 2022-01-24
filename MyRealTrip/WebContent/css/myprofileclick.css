@@ -1,0 +1,109 @@
+@charset "UTF-8";
+*{
+	color: #575e63;
+	font-size:15px;
+	
+	}
+	#profile_popup_main01{
+	width:230px; 
+	height:380px;
+	position: absolute;
+    z-index: 3;
+    right: 25px;
+    top: 50px;
+    background: white;
+	}
+	#profile_popup_main01 .icon09{
+		weith:20px;
+		height:20px;
+		vertical-align:middle;
+		margin: 0 15px;
+	}
+	#profile_popup_main01 .border01{
+		border: 1px solid #e9ecef;
+		border-radius: 2px;
+	}
+	#profile_popup_main01 .border-bottom01{
+		border-bottom: 1px solid #e9ecef;
+	}
+	#profile_popup_main01 .middle_flex{
+		width:100%;
+		height:115px;
+		display : flex;
+		flex-direction : column;
+		justify-content:space-between;
+	}
+	#profile_popup_main01 .display_flex01{
+		padding-top: 20px;
+		display:flex;
+		justify-content: space-between;
+		padding-left:20px;
+		padding-right:20px;
+	
+	}
+	#profile_popup_main01 .point_coupon_container{
+		display:flex; 
+		justify-content:space-between;
+		padding-right:18px;
+	}
+
+	#profile_popup_name{
+		margin-top: 20px;
+		padding-left: 46px;
+		font-weight: 700;
+		color: #575e63;
+		font-size: 17px;
+	}
+	#profile_popup_main01 .bluecolor_01{
+		color:#5fb0f1;
+	}
+	#profile_popup_main01 .popup_size01{
+	width:100%; 
+	height:380px;
+	}
+	#profile_popup_main01 .popup_size02{
+	width:210px; 
+	height:69px; 
+	padding-left: 20px;
+	}
+	#profile_popup_main01 .popup_img_size01{
+	width:30px;
+	height:30px;
+	vertical-align: middle;
+	float:left;
+	}
+	#profile_popup_main01 .profile_management01{
+	padding-left: 46px;
+	font-weight: 500;
+	color: #66b3f2;
+	font-size: 14px;
+	}
+	#profile_popup_main01 .popup_size03{
+	padding-top: 23px;
+	}
+	#profile_popup_main01 .popup_size04{
+	padding-bottom: 20px;
+	}
+	#profile_popup_main01 .popup_size05{
+	width:100%;
+	height:65px;
+	}
+	#profile_popup_main01 .popup_size06{
+	padding-top: 20px;
+	}
+	#profile_popup_main01 .popup_size07{
+	padding-top: 25px;
+	padding-left:18px;
+	}
+	#profile_popup_main01 .popup_size08{
+	padding-bottom: 27px;
+	padding-left:18px;
+	}
+	.popup_size03:hover , 
+	.popup_size04:hover, 
+	.popup_size06:hover, 
+	.popup_size07:hover, 
+	.popup_size08:hover{
+		cursor : pointer;
+	}
+	

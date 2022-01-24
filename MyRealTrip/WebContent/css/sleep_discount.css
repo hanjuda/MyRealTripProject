@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+#lodgment_mainsize01{
+	margin: 0 auto;
+    padding-bottom: 112px;
+    padding-top: 20px;
+    width: 1242px;
+	}
+	#lodgment_main_size02{
+	margin-bottom: 48px;
+    min-height: 800px;
+    text-align: center;
+    width: 100%;
+	}
+	#lodgment_mainsize01 .lodgment_01{
+	width: 1242px;
+	height: 28px;
+	}
+	#lodgment_mainsize01 .img_lodgment_01{
+	width: 376px;
+	display:block;
+	margin: 0 auto;
+	}
+	#lodgment_mainsize01 .lodgment_02{
+	align-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+	}
+	#lodgment_mainsize01 .img_lodgment_02{
+	width: 400px;
+	display:block;
+	margin: 0 auto;
+	margin-top: 46px;
+	}
+	#lodgment_mainsize01 .img_lodgment_03{
+	width: 650px;
+	margin: 0 auto;
+	display:block;
+	margin-top: 48px;
+	
+	}
+	#lodgment_mainsize01 .img_lodgment_04{
+	width: 480px;
+	margin: 0 auto;
+	display:block;
+	margin-top: 48px;
+	}
+	#lodgment_main_size03{
+	background-color: #343a40;
+    border-radius: 24px;
+    padding: 72px 91px 91px;
+    box-sizing: border-box;
+    outline: none;
+	}
+	#lodgment_mainsize01 .lodgment_03{
+	box-shadow: 0 4px 8px rgb(33 37 41 / 10%);
+    position: relative;
+    width: 100%;
+    
+	}
+	#lodgment_mainsize01 .lodgment_04{
+	background-color: #582c9a;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    width: 100%;
+	}
+	#lodgment_mainsize01 .lodgment_05{
+	margin-bottom: 72px;
+    padding: 42px 0 40px;
+    position: relative;
+    display: block;
+	}
+	#lodgment_mainsize01 .img_lodgment_05{
+	width: 419px;
+	margin: 0 auto;
+	display:block;
+	
+	}
+	#lodgment_mainsize01 .lodgment_backwhite01{
+	background-color: #fff;
+	}
+	#lodgment_mainsize01 .get_coupon_01{
+	align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    position: relative;
+    background-color: #fff;
+	}
+	#lodgment_mainsize01 .coupon_cardbox01{
+	background-color: #ede7ff;
+    margin-right: 8px;
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 16px;
+    position: relative;
+    width: 329px;
+	}
+	#lodgment_mainsize01 .coupon_cardbox02{
+	align-items: center;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px 16px;
+    position: relative;
+    width: 329px;
+	}
+	#lodgment_mainsize01 .img_coupon_cardbox01{
+	width: 227px;
+	}
+	#lodgment_mainsize01 .coupon_getnow01{
+	align-items: center;
+    background-color: #7439cb;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.2px;
+    line-height: 1;
+    outline: none;
+    padding: 0;
+    width: 100%;
+	}
+	#lodgment_mainsize01 .coupon_nextbox01{
+	align-items: center;
+    display: flex;
+    height: 239px;
+	}
+	#lodgment_mainsize01 .coupon_absolute01{
+	height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 201px;
+    top: 113px;
+	}
+	#lodgment_mainsize01 .coupon_absolute02{
+	width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 120px;
+	}
+	#lodgment_mainsize01 .importent_text01{
+	display: block;
+	padding-top: 40px;
+	background-color: #fff;
+	
+	}
+	#lodgment_mainsize01 .importent_text_img{
+	width: 666px;
+	margin: 0 auto;
+	display: block;
+	}
+	#lodgment_mainsize01 .coupon_nowbuy01{
+	display: block;
+    padding-top: 40px;
+    background-color: #fff;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 72px;
+    
+	}
+	#lodgment_mainsize01 .coupon_nowbuy02{
+	margin: 0 auto;
+    width: 320px;
+	align-items: center;
+    background-color: #7439cb;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    height: 72px;
+    justify-content: center;
+    letter-spacing: -.55px;
+    line-height: 1;
+    outline: none;
+    padding: 0;
+	}
+	#lodgment_main_size04{
+	box-shadow: 0 4px 8px rgb(33 37 41 / 10%);
+    position: relative;
+    width: 100%;
+    
+	}
+	#lodgment_mainsize01 .lodgment_main_size04_01{
+	background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 32px 0 26px;
+	}
+	#lodgment_mainsize01 .blue_top{
+	background-color: #2b96ed;
+	border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    width: 100%;
+	}
+	
+	#lodgment_mainsize01 .mylodgment_01_img{
+	display: block;
+	width: 449px;
+	margin: 0 auto;
+	}
+	#lodgment_mainsize01 .background_blackall{
+	margin-top: 31px;
+    padding: 0 55px;
+	}
+	#lodgment_mainsize01 .mylodgment_02{
+	background-color: #f8f9fa;
+    border-radius: 16px;
+    margin: 0 auto 32px;
+    padding: 32px 55px 30px 55px;
+	}
+	
+	#lodgment_mainsize01 .mylodgment_02_img{
+	display: block;
+	width: 754px;
+	margin: 0 auto;
+	}
+	#lodgment_mainsize01 .mylogment_02_img01{
+	display: block;
+	width: 401px;
+	margin: 0 auto;
+	}
+	#lodgment_mainsize01 .mylogment_02_img02{
+	padding-top: 40px;
+    width: 753px;
+    margin: 0 auto;
+    display: block;
+	}
+	#lodgment_mainsize01 .mylogment_02_img03{
+	padding-top: 30px;
+    width: 753px;
+    margin: 0 auto;
+    display: block;
+	}
+	#lodgment_mainsize01 .coupon_nowbuy03{
+	display: block;
+    padding-top: 40px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+	}
+	
+	#lodgment_mainsize01 .mylogment_03_img01{
+	width: 454px;
+	padding-top: 32px 0;
+    margin: 0 auto;
+    display: block;
+	
+	}
+	#lodgment_mainsize01 .mylogment_04_img01{
+	width: 458px;
+	padding-top: 30px;
+    margin: 0 auto;
+    display: block;
+	}
+	#lodgment_mainsize01 .kakako_share01{
+	display: flex;
+    justify-content: center;
+    margin: 50px 0;
+	}
+	#lodgment_mainsize01 .kakao_share_02{
+	background-color: #ffd232;
+    color: #212529;
+    font-size: 22px;
+    width: 320px;
+    align-items: center;
+    border: 0;
+    border-radius: 50px;
+    font-weight: 700;
+    height: 72px;
+    justify-content: center;
+    cursor: pointer;
+	}
+	#lodgment_mainsize01 .lodgment_kakao_img{
+	margin-right: 8px;
+    width: 22px;
+	}
+	#lodgment_mainsize01 .lodgment_last{
+	background-color: #f8f9fa;
+    padding: 60px 0;
+    width: 100%;
+    display: block;
+	}
+	#lodgment_mainsize01 .lodgment_last01{
+	width: 1058px;
+    display: block;
+    margin: 0 auto;
+    border-width: 0;
+    vertical-align: middle;
+	}
+	#lodgment_mainsize01 .lodgment_last02{
+	width: 1058px;
+    display: block;
+    margin: 0 auto;
+    border-width: 0;
+    vertical-align: middle;
+	}
+	#lodgment_mainsize01 .lodgment_last03{
+	width: 1058px;
+    display: block;
+    margin: 0 auto;
+    border-width: 0;
+    vertical-align: middle;
+	}

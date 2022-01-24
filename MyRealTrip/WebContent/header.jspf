@@ -1,0 +1,223 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*" %>
+<%
+
+	int mem_num =0; 
+	try{
+		mem_num = (Integer)(session.getAttribute("mem_num"));
+	}catch(Exception e){
+		//e.printStackTrace();
+		mem_num=0;
+	}	
+	
+	//MemberDao mdao = new MemberDao();
+	
+	/* String driver2 = "oracle.jdbc.driver.OracleDriver";
+	String url2 = "jdbc:oracle:thin:@localhost:1521:xe";
+	String db_id2 ="myrealtrip";
+	String db_pw2 = "1234";
+	Connection conn2 = null;
+	
+	int user_point = 0;
+	String user_name = "아아";
+	int user_coupon_count =0; 
+	try{
+		Class.forName(driver2);
+		String sql2 = "SELECT * FROM member where mem_num = ? ";
+		conn2 = DriverManager.getConnection(url2,db_id2,db_pw2);
+		PreparedStatement pstmt = conn2.prepareStatement(sql2);
+		pstmt.setInt(1,mem_num);
+		ResultSet rs = pstmt.executeQuery();
+		while(rs.next()){
+			user_name = rs.getString("name");
+			user_point = rs.getInt("point");
+		}
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+	
+	try{
+		Class.forName(driver2);
+		String sql2 = "SELECT count(coupon_num) FROM mem_coupon where mem_num = ? ";
+		conn2 = DriverManager.getConnection(url2,db_id2,db_pw2);
+		PreparedStatement pstmt = conn2.prepareStatement(sql2);
+		pstmt.setInt(1,mem_num);
+		ResultSet rs = pstmt.executeQuery();
+		while(rs.next()){
+			user_coupon_count = rs.getInt(1);
+		}
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+	 */
+	
+	
+	
+	
+	
+%>
+<link href="css/header.css" rel="stylesheet" type="text/css"/>
+<link href="./css/myprofileclick.css" rel="stylesheet" type="text/css"/>
+<!-- <script src="./js/jquery-3.6.0.min.js"></script> -->
+<script>
+	$(function(){
+		$(".ready").click(function(){
+			alert("준비중입니다");
+		})
+		
+		$("#message_loca").click(function(){
+			location.href="Controller?command=message";
+		})
+		
+		
+		$("#profile_popup_main01").hide()	
+		$(".penguin").click(function(e){
+			e.stopPropagation();
+			$("#profile_popup_main01").toggle();
+		})
+		$(document).click(function(){
+   			$('#profile_popup_main01').hide();
+		});
+		
+		$("#logout_id").click(function(){
+			location.href="Controller?command=logout"
+		})
+		
+		$("#searinput").keydown(function(key) {
+            if (key.keyCode == 13) {
+            	search = $(this).val()
+                location.href="Controller?command=search&search="+search;
+            }
+        });
+		
+		$("#wish_list_loca").click(function(){
+			mem_num=<%=mem_num%>;
+			location.href="Controller?command=wishlist&mem_num="+mem_num;	
+		})
+		$(".profile_management01").click(function(){
+			mem_num = <%=mem_num%>	
+			location.href="Controller?command=mymanage&mem_num="+mem_num;	
+		})
+
+		$("#mytrip_loca").click(function(){
+			mem_num = <%=mem_num%>
+			location.href="Controller?command=mytrip&mem_num="+mem_num;			
+		})	
+		
+	})
+</script>
+	<div id="big_head_container">
+		<div class="headContainer">
+			<div>
+				<a href="index.jsp">
+					<img class="header_myreal_logo" src="./img/myrealtrip_logo.png"/>
+				</a>
+			</div>
+	
+			<div id="header_search">
+				<div>
+					<img class="header_search_img" src ="./img/searchimg.png"/>
+				</div>
+				<div>
+					<input id="searinput" type="search" placeholder="도시나 상품을 검색해보세요" spellcheck="false" autocomplete="off"/>
+				</div>
+			</div>
+<%if(mem_num == 0){
+%>	 			
+			<div id="header_member" onclick="location.href='Controller?command=sign_up'">
+				<a href="Controller?command=sign_up">회원가입</a>
+			</div>
+			<div class="header_login_logo" onclick="location.href='Controller?command=sign_in'">
+				<a href="Controller?command=sign_in">로그인</a>
+			</div>
+			<div class="header_partner_logo" onclick="location.href='Controller?command=becomepartner'">
+				<a href="Controller?command=becomepartner">파트너 등록하기</a>
+			</div>
+<%}else{
+%>
+		<div class="logout_box">
+			<div id="wish_list_loca">위시리스트</div>
+			<div id="mytrip_loca">내 여행</div>
+			<div id="message_loca">메세지</div>
+			<div id="notice_loca">알림</div>
+			<div id="penguin_box">
+				<img class="penguin" src="./img/penguin.png" />
+			</div>
+		</div>
+		<!-- 프로필 클릭시 -->
+		<div id="profile_popup_main01">
+			<div class="border01 popup_size01">
+				<div class="border-bottom01 popup_size02">
+					<div>
+						<img src="./img/pangsu.png" class="popup_img_size01"/>
+						<div id="profile_popup_name">${user_name}</div>			
+						<div class="profile_management01">프로필 관리</div>
+					</div>
+				</div>
+				
+				<div class="border-bottom01 middle_flex border-bottom01">
+					<div class="point_coupon_container popup_size03">
+						<div>
+							<img src="./img/gifticon.png" class="icon09 font_size03"/>포인트
+						</div>
+						<span class="bluecolor_01">${user_point}원</span>
+					</div>
+					<div class="point_coupon_container popup_size04">
+						<div>
+							<img src="./img/gifticon.png" class="icon09"/>쿠폰
+						</div>
+						<span class="bluecolor_01">${user_coupon}장</span>
+					</div>
+				</div>
+				 <div class="border-bottom01 popup_size05">
+				 	<div class="popup_size06"><img src="./img/gifticon.png" class="icon09"/>친구초대</div>
+				 </div>
+				 <div class="middle_flex" >
+					<div class="popup_size07">파트너 등록하기</div>
+					<div id="logout_id" class="popup_size08">로그아웃</div>
+				</div>
+			</div>
+		</div>
+
+<% 	
+	}
+%>		
+		<div style="clear : both;"></div>
+		</div>
+		<div id="headContainer2">
+			<div>
+				<a href="index.jsp" class="header_menu" style="width:23.81px; ">홈</a>	
+			</div>
+			<div>
+				<a href="" class="header_menu ready"  style="width:55.41px;">항공권</a>	
+			</div>
+			<div>
+				<a href="" class="header_menu ready" style="width:39.61px;">숙소</a>	
+			</div>
+			<div>
+				<a href="" class="header_menu ready" style="width:55.41px;">랜터카</a>	
+			</div>
+			<div>
+				<a href="" class="header_menu ready" style="width:87px;">투어&nbsp;·&nbsp; 티켓</a>	
+			</div>
+			<div style=" position: relative;">
+				<a href="Controller?command=motel_discount" class="header_menu" style=" width:111.88px;">숙박4만원할인</a>
+				<img class="header_new_img" src="./img/new.png" style="right: 572px;"/>	
+			</div>
+			<div>
+				<a href="Controller?command=scanner" class="header_menu" style="width:118.61px;">해외여행스캐너</a>	
+			</div>
+			<div>
+				<a href="Controller?command=discount_benefit" class="header_menu" style="width:71.2px;">할인혜택</a>	
+			</div>
+			<div style=" position: relative;">
+				<a href="" class="header_menu ready" style="width:102.81px;">제주이색투어</a>
+				<img class="header_new_img" src="./img/new.png" style="right: 213px;"/>	
+			</div>
+			<div>
+				<a href="" class="header_menu ready" style=" width:87px;">해외패키지</a>	
+			</div>
+			<div style="clear : both;"></div>
+		</div>
+	</div>

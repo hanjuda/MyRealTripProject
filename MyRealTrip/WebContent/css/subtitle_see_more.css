@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+	#mainRecommend01{
+		width:1060px;
+		height:390px;
+		margin: 0 auto;
+	}
+	#mainRecommend02{
+		width:1060px;
+		height:390px;
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+	#mainRecommend01 .img_size_lotte{
+		width:1060px;
+		height:390px;
+	}
+	#mainRecommend01 .recommend_minibox{
+		float:right;
+		width:84px;
+		height:28px;
+	}
+	#mainRecommend01 .recommend_minibox_font{
+		border: 1px solid #e9ecef;
+	    color: #848c94;
+	    font-size: 12px;
+	    height: 28px;
+	    line-height: 26px;
+	    padding-left: 16px;
+	    position: relative;
+	}
+	#mainRecommend01 .miniarrowdown01{
+		width:8px;
+		height:4px;
+		padding-left: 10px;
+   		padding-bottom: 2px;
+	}
+

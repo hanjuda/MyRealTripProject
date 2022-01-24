@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+	#discount_container {
+		width:100%;
+		margin: 48px auto;
+		text-align: center;
+		position : relative;
+	}
+	#discount_image {
+		width: 1242px;
+		height: 7716px;
+	}
+	#airlineticket_image {
+		width:265px;
+		height:64px;
+		position : absolute;
+		top: 766px;
+   	 	/* right: 810px; */
+   	 	left: calc(50% - 132px);
+	}	
+	#hoteldiscount_image {
+		width:265px;
+		height:64px;
+		position : absolute;
+		top: 1473px;
+   	 	left: calc(50% - 132px);
+	}
+	#rentcar {
+		position: absolute;
+	    width: 600px;
+	    height: 550px;
+	    top: 2200px;
+	    /* left: 300px; */
+	    left: calc(50% - 300px);
+	}
+	#rentcardiscount1_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 10px;
+		left: 10px;
+	}
+	#rentcardiscount2_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 10px;
+		left: 310px;
+	}
+	#rentcardiscount3_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 310px;
+		left: 10px;
+	}
+	#rentcardiscount4_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 310px;
+		left: 310px;
+	}
+	#moteldiscount1_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 10px;
+		right: 10px;
+	}
+	#moteldiscount2_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 10px;
+		right: 310px;
+	}
+	#moteldiscount3_image {
+		width: 335px;
+		height: 66px;
+		position : absolute;
+		top: 3789px;
+		left : calc(50% - 170px);
+	}
+	#jejutourcoupon1_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		left: 10px;
+		top: 10px;
+	}
+	#jejutourcoupon2_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		left: 310px;
+		top: 10px;
+	}
+	#jejutourcoupon3_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		left: 10px;
+		top: 280px;
+	}
+	#jejutourcoupon4_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		left: 310px;
+		top: 280px;
+	}
+	#jejutourcoupon5_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		left: 10px;
+		top: 550px;
+	}
+	#jejutourcoupon6_image {
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		left: 310px;
+		top: 550px; 
+	}
+	#jejutourexactly_image {
+		width: 290px;
+		height: 66px;
+		position : absolute;
+		left: calc(50% - 150px);
+		top: 5360px;
+	}
+	#packagecoupon1_image{
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 10px;
+   	 	left: 10px;
+	}	
+	#packagecoupon2_image{
+		width: 294px;
+		height: 248px;
+		position : absolute;
+		top: 10px;
+   	 	left : 310px;
+	}
+	#packagecoupon3_image{
+		width: 437px;
+		height: 66px;
+		position : absolute;
+		top: 6470px;
+   	 	left: calc(50% - 220px);
+	}
+	#moteldiscount_container1{
+		position: absolute; 
+		width: 600px;
+		height: 300px; 
+		top: 3458px; 
+		left: calc(50% - 300px);
+	}
+	div#jejutourcoupon_container{
+		position: absolute;
+		width : 600px;
+		height: 900px; 
+		top: 4500px; 
+		left: calc(50% - 300px);
+	}
+	div#packagecou_container{
+		position: absolute;
+		width : 600px;
+		height: 300px; 
+		top: 6165px; 
+		left: calc(50% - 300px);
+	}
+	#big_head_container{
+		background-color : #2b96ed !important;
+	}
+	
+	#big_head_container a{
+		color : white !important;
+	}
+	
+	body{
+		margin : 0 !important;
+	}
+	.header_partner_logo:hover , .header_login_logo:hover, #header_member:hover{
+		background-color : #55abf1 !important;
+	}

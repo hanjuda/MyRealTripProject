@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+
+
+	#div_one {
+		background-size: 100%;
+	    width: 100%;
+	    height: 350px;
+	    position:relative;
+	    margin-top:100px;
+	    background-image:url(https://d2ur7st6jjikze.cloudfront.net/landscapes/4744_large_1535960572.jpg?1535960572);
+   	}
+	#div_one_cover {
+	    background-color: #0006;
+	    height: 100%;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    z-index : 1;
+	}
+
+	#div_top_menu {
+	    z-index: 2;
+	    position: absolute;
+	    left: 0px;
+	    width:100%;
+	}
+
+	/*  #headContainer2 > div > a {
+		color: #fff;
+	}  */
+	.seoul_img1{
+/* 		position: relative; */
+/* 	    flex-direction: row; */
+/* 	    justify-content: center; */
+/* 	    align-items: center; */
+/* 	    padding: 12px 16px 0; */
+/* 	    box-shadow: inset 0 -1px #dee2e6; */
+	    background-color: #fff;
+/* 	    border-top-left-radius: 12px; */
+/* 	    border-top-right-radius: 12px; */
+ 	width: 48px; 
+ 	height: 48px;
+	}
+	.seoul_text1{
+		
+	    font-size: 16px;
+	    font-weight: bold;
+	    letter-spacing: -.4px;
+	    color: #495056;
+	}
+	.seoul_hover:hover{
+		border-bottom: 3px solid #2b96ed;
+		color : #2b96ed;
+	}
+	.seoul_hover:not(.on) {
+
+	}
+	.seoul_hover {
+		box-sizing: border-box;
+	}
+	.seoul_hover.on {
+		border-bottom: 3px solid #2b96ed;
+	}
+	.seoul_hover.on > p {
+		color : #2b96ed !important;
+	}
+	.seoul_hover1:hover{
+		border-botoom: 3px solid white;
+		border-bottom-width: 3px; 
+    	border-bottom-style: solid; 
+    	border-bottom-color: white; 
+	}
+	#seoul_main_category_02{
+	margin-top:40px;
+	margin-bottom:56px;
+	margin-left:119px;
+	margin-right:119px;
+	width:1060px;
+	margin: 0 auto;
+	margin-heigth:211px;
+	}
+	.category2{
+	margin-bottom:40px;
+	margin-left:119px;
+	margin-right:119px;
+	width:1060px;
+	margin: 0 auto;
+	margin-heigth:363px;
+	}
+	#seoul_main_size_box01{
+	    align-items: center;
+	    background-color: #fff;
+	    border-top-left-radius: 12px;
+	    border-top-right-radius: 12px;
+	    box-shadow: inset 0 -1px 0 0 #dee2e6;
+	    display: flex;
+	    flex-direction: row;
+	    justify-content: center;
+	    left: 0;
+	    padding: 12px 16px 0;
+	    position: relative;
+	    top: 0;
+	}
+	#seoul_main_size_box01 .seoul_tour01{
+	width:126px;
+	height:95px; 
+	margin-right:8px; 
+	float:left; 
+	text-align: center;
+	}
+	#seoul_main_size_box01 .seoul_size_box02{
+	margin-bottom: 16px; 
+	width :700px; 
+	margin: 0 auto;
+	margin-left:535px;
+	cursor:pointer;
+	}
+	#seoul_main_size_box01 .seoul_category01{
+	width:126px;
+	height:95px;
+	margin-right:8px; 
+	text-align: center;
+	}
+	.seoul_main_category_font{
+	color: #343a40;
+	font-size: 24px;
+	font-weight: 700;
+	magin-bottom:16px;
+	}
+	#seoul_main_category_02 .category_main_box{
+	width:1090px; 
+	height:168px;
+	}
+	#seoul_main_category_02 .seoul_category_button{
+		width:259px; 
+		height:48px; 
+		margin-right:8px;
+		margin-bottom: 8px; 
+		border: 0;
+		border-radius: 4px; 
+		background-color :#f5f6f7;
+		cursor : pointer;
+	}
+	button.seoul_category_button:hover{
+		background-color : #e9ecef !important;
+	}
+	#seoul_main_category_02 .seoul_category_img{
+	width:24px; 
+	height:24px;
+	float:left;
+	margin-right: 10px;
+	}
+	#seoul_main_category_02 .seoul_category_fontmini{
+	float:left;
+	font-size:16px;
+	}
+	h1.seoul_title_seoul{
+		color: #fff;
+	    font-size: 54px;
+	    margin: 0 auto;
+	    font-weight: 700;
+	    width: 1060px;
+	    letter-spacing: -.4px;
+	    height: 54px;
+	    text-align: center;
+	    margin-top: 30px;
+	}
+		div.loca_title_container{
+		position: relative;
+   		width: 100%;
+   		color : white;
+   		margin-top: 22px;
+	}
+	div.loca_container{
+		display : flex; 
+		width: 1060px; 
+		margin: 0 auto;
+	}
+	div.loca_container span{
+		color: #fff;
+	    font-size: 14px;
+	    font-weight: 700;
+	    margin-right: 2px;
+	    vertical-align: middle;
+	    cursor : pointer;
+	}
+	div.loca_container img{
+		width : 16px; 
+		height : 16px ;
+		vertical-align: middle;
+	}
+	div.loca_container > div > button > img:hover {
+		background-color: rgba(200,200,200,10);
+    	border-radius: 4px;
+	}
+	div.seoul_title_container{
+		width: 1060px; 
+		margin: 0 auto; 
+		text-align:center;
+	}
+	div.loca_container button{
+		background-color: transparent;
+    	border: 0;
+    	padding: 0;
+    	cursor : pointer;
+	}
+		div#seoul_main_size_box01 p{
+		margin :0;
+	}
+	
+	div.tour_ticket_bestseller_container{
+		display :flex;
+		height: 42px;
+		align-items: center;
+		/* box-shadow: inset 0 -1px 0 0 #dee2e6; */
+		margin-bottom: 20px;
+		border-bottom: 1px solid #dee2e6;
+		margin-left: 14px;
+	}
+	div.tour_ticket_bestseller_container>button{
+		height: 100%;
+    	margin-right: 24px; 
+    	color: #666d75;
+    	border: 0;
+    	padding: 0;
+    	text-decoration: none;
+    	cursor: pointer;
+    	background-color : white;
+    	font-size: 15px;
+    	/* border-bottom: 2px transparent; */
+	}
+	div.tour_ticket_bestseller_container>button:hover{
+		border-bottom: 2px solid #51abf3;
+		color : #51abf3;
+	}
+		span.seoul_see_more{
+		color: #666d75;
+   		font-size: 14px;
+	}
+	div.seoul_see_more_container{
+		cursor:pointer;
+	}
+	
+	div.famouse_place_container{
+		display:flex;
+		justify-content : space-between;
+		width : 100%;
+	}
+	div.famouse_place_container>a{
+		/* margin-right: 20px; */
+		border-radius: 4px;
+	    position: relative;
+	    width: 160px!important;
+	    cursor: pointer;
+	    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 16%);
+	    height: 185px;
+	}
+	div.famouse_place_container>a>img{
+		border-top-left-radius: 4px;
+	    border-top-right-radius: 4px;
+	    height: 106px;
+	    object-fit: cover;
+	    width: 100%;
+	}
+	div.famouse_place_container>a h3{
+		color: #343a40;
+	    font-size: 15px;
+	    font-weight: 600;
+	    line-height: 1.33;
+	    word-break: break-all;
+	    margin: 0px;
+	}
+	div.famouse_place_container>a>div{
+		height: calc(100% - 106px);
+	    padding: 12px;
+	    position: relative;
+	}
+	div.famouse_place_container>a>div>span{
+		bottom: 35px;
+	    color: #848c94;
+	    font-size: 12px;
+	    left: 12px;
+	    position: absolute;
+	}
+		div.see_more_contain_title{
+		display :flex; 
+		justify-content : space-between; 
+		align-items: end;
+	}
+		div.seoul_category_section>h3{
+		color: #343a40;
+	    font-size: 18px;
+	    font-weight: 700;
+	    opacity: .6;
+	    margin-bottom: 17px;
+    	margin-top: -10px;
+    	margin-left: 10px;
+	}
+		div.seoul_category_section{
+		margin-bottom: 40px;
+	}
+	div.seoul_category_section>div>h2{
+		color: #343a40;
+	    font-size: 24px;
+	    font-weight: 700;
+	    margin-bottom: 0;
+	}
+	div.seoul_category_section>div:nth-child(1){
+		margin-left: 10px;	
+		margin-bottom : 20px;
+	}
+.logout_box>div{
+    color: white;
+}
+	

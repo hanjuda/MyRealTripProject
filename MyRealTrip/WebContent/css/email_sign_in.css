@@ -1,0 +1,92 @@
+@charset "UTF-8";
+#email_login_box{
+	border: 1px solid #dee2e6;
+    border-radius: 2px;
+    margin: 64px auto;
+    padding: 48px;
+    width: 330px;
+}
+#email_login_box .mail_font{
+	color: #495056;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+#email_login_box .mail_input{
+	font-size: 14px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width:308px;
+    background-color: #fff;
+    border: 0;
+    box-shadow: inset 0 0 0 1px #ced4da;
+    color: #343a40;
+    transition: box-shadow .2s ease;
+
+}
+#email_login_box .mini_flex{
+	display:flex;
+	justify-content: space-between;
+}
+#email_login_box .flex_font{
+	font-size: 14px;
+	color: #343a40;
+    font-weight: 400;
+    vertical-align: bottom;
+}
+#email_login_box .checkbox_size{
+	height: 20px;
+    width: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+    margin: 0 8px 0 0;
+    position: relative;
+    vertical-align: bottom;
+    
+}
+#email_login_box .mail_login_button{
+	background-color: #cbe7fd;
+    border: 1px solid #cbe7fd;
+    color: #fff;
+    font-size: 16px;
+    height: 48px;
+    width:332px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    /* cursor:no-drop; */
+}
+#email_login_box .mail_login_button[disabled] {
+	cursor:no-drop;
+}
+#email_login_box .makemember{
+	text-align: center;
+	color: #666d75;
+    font-size: 12px;
+    margin-left: 4px;
+
+}
+#email_login_box .makemember2{
+	text-decoration: underline;
+}
+
+input[type="text"]:focus {
+	outline: 2px solid rgb(43, 150, 237);
+	}
+input[type="password"]:focus {
+	outline: 2px solid rgb(43, 150, 237);
+	}
+
+input[type="text"]:focus::placeholder {
+		color: transparent;
+}
+input[type="password"]:focus::placeholder {
+		color: transparent;
+}
+form p{
+    font-size: 12px;
+  	font-weight: 500
+}

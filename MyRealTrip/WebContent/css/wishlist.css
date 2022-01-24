@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* 	#wishlist_main_size01{
+	width:100%; 
+	height:581px;
+	padding-top:76px; 
+	padding-bottom:100px;
+	background-color: #f5f6f7;
+	}
+	#wishlist_main_size01 .wishlist_size_01{
+	width:610px; 
+	height:581px; 
+	background-color:white; 
+	margin: 0 auto;
+	}
+	#wishlist_main_size01 .wishlist_size_02{
+	width:590px; 
+	height:48px; 
+	padding-left:20px;  
+	border-bottom: 3px solid #e9ecef;
+	}
+	#wishlist_main_size01 .wishlist_size_03{
+	width:85px; 
+	height:45px; 
+	padding-left:10px;
+	padding-right:10px; 
+	margin: 0 auto;
+	border-bottom: 3px solid #79bef5;
+	color: #495056;
+	display: inline-block;
+	height: inherit;
+	line-height: 48px;
+	text-align: center; 
+	min-width: 105px;
+	}
+	#wishlist_main_size01 .wishlist_size_04{
+	font-size: 14px;
+	}
+	#wishlist_main_size01 .wishlist_size_05{
+	width:610 px;
+	height:530 px;
+	margin: 0 auto;
+	text-align: center;
+	}
+	#wishlist_main_size01 .wishlist_size_06{
+	width:300px;
+	height:143px; 
+	margin: 0 auto;
+	text-align: center;
+	}
+	#wishlist_main_size01 .wishlist_size_07{
+	margin-top: 200px; 
+	height:60px; 
+	width:60px;
+	}
+	#wishlist_main_size01 .wishlist_size_08{
+	color: #848c94;
+	font-size: 14px;
+	margin-top: 20px;
+	} */
+body{
+	margin: 0;
+	}
+	
+
+
+/*footer--------------------------------------------*/	
+#wishlist_main{
+	width:100%;
+	}  
+	#wishlist_main .wishlist_main02{
+	width:1060px;
+	margin: 0 auto;
+	}
+	#wishlist_main .buttonstyle01{
+	border:0;
+	background-color: #fff;
+	padding:0 0 10px 0;
+	font-size: 16px;
+    font-weight: 700;
+	}
+	#wishlist_main .font_size01{
+	font-size: 16px;
+    font-weight: 700;
+	}
+	#wishlist_main .newflex01{
+	display:flex;
+	justify-content: center;
+	padding: 48px 0;
+    width: 100%;
+	}
+	#wishlist_main .font_size02{
+	font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-right: 100px;
+    margin-top: 0;
+    padding: 0;
+	
+	}
+	#wishlist_main .blue_color{
+	color:#51abf3
+	}
+	#wishlist_main .fineding_lodgment{
+	padding : 12px 16px 0 16px;
+	color:#51abf3;
+	background-color: #e7f4fd;
+	font-size: 14px;
+	font-weight:700;
+	border-radius: 4px;
+	height: 28x;
+	}
+
+
+
+
+

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+	
+	.recommend_minibox{
+		float:right;
+		width:84px;
+		height:28px;
+	}
+	.recommend_minibox_font{
+		border: 1px solid #e9ecef;
+	    color: #848c94;
+	    font-size: 12px;
+	    height: 28px;
+	    line-height: 26px;
+	    padding-left: 16px;
+	    position: relative;
+	}
+	.miniarrowdown01{
+		width:8px;
+		height:4px;
+		padding-left: 10px;
+   		padding-bottom: 2px;
+	}
+	#main_Insidedate{
+		position : relative;
+		width:1060px;
+		height:390px;
+		margin: 0 auto;
+		margin-top:25px;
+		margin-bottom:25px;
+	}
+	#insidedate_background{
+		width:1060px;
+		height:390px;
+		/* background-image:url(./img/insidedatebackground.jpg); */
+		background-position: center;
+		filter: blur(2px);
+ 		background-blend-mode: exclusion; 
+ 		background-color: #343a40;
+ 		backdrop-filter: contrast(0.5);
+	}
+	#insidedate_mainwidth{
+	
+		width:1060px;
+		height:480px;
+		margin : 0 auto;
+	
+	}
+	.insidedate_absolute01{
+		position: absolute;
+		top: 37%;
+	    right: 36%;
+	}
+	.background_text_font01{
+		font-size: 30px;
+		color: #fff;
+	}
+	.insidedate_absolute02{
+		position: absolute;
+		top: 49%;
+	    right: 29%;
+    }
+	.background_text_font02{
+		font-size: 24px;
+		color: #fff;
+	
+	}
+	.inside_text_font01{
+		color: #848c94;
+	    margin: 0 6px;
+	    padding: 0 8px;
+	    font-size: 14px;
+	}
+	#inside_text_one{
+		font-size: 14px;
+		color: #2b96ed;
+	    font-weight: 600;
+	    margin-right: 6px;
+	    padding-right: 8px;
+	}
+	
+	#date_more_container{
+		display: flex;  
+		margin-bottom: 50px !important; 
+		flex-wrap: wrap;
+		width:1060px; 
+		margin : 0 auto;
+	}
+	.homediv{
+		margin-bottom : 15px;
+		margin-right : 15px;
+	}
+
+

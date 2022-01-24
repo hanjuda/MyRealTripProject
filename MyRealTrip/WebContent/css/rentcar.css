@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+  
+
+	.category{
+	margin-top:40px;
+	margin-bottom:56px;
+	margin-left:119px;
+	margin-right:119px;
+	width:1060px;
+	margin: 0 auto;
+	margin-heigth:98px;
+	}
+	.category2{
+	margin-bottom:40px;
+	margin-left:119px;
+	margin-right:119px;
+	width:1060px;
+	margin: 0 auto;
+	margin-heigth:363px;
+	}
+	#rentAd{
+	background-color: rgb(125, 129, 226);
+	width: 339px;
+	height: 231px;
+	overflow: hidden;
+	border-radius: 8px;
+	}
+/*body--------------------------------------------*/
+#tour_ticket {
+		width:1600px; 
+		height: 98px; 
+		background:white; 
+		border-bottom: 1px solid #dee2e6; 
+		margin-top :14px;
+	}
+	#tour_ticket2 {
+		margin-bottom: 16px;  
+		width :700px; 
+		margin: 0 auto;
+		margin-left:535px;
+	}
+	.seoul_hover {
+		width:126px;
+		height:95px; 
+		margin-right:8px; 
+		float:left; 
+		text-align: center;
+	}
+	.seoul_img1 {
+		width: 48px; 
+		height: 48px;
+	}
+	#category12 {
+		color: #343a40;
+		font-size: 24px;
+		font-weight: 700;
+		magin-bottom:16px;
+	}
+	#sonata {
+		width:259px; 
+		height:48px; 
+		margin-right:8px;
+		margin-bottom: 8px; 
+		border: 0;
+		border-radius: 4px; 
+		background:#f5f6f7;
+	}
+	#sonata > img {
+		width:24px; 
+		height:24px;
+		float:left;
+	}
+	#sonata_rent {
+		float:left;
+		font-size:16px;
+	}
+	#edit {
+		margin-top: 40px;
+		color: #343a40;
+		font-size: 24px; 
+		font-weight: 700; 
+		margin-bottom: 0	
+	}
+	#edit_text1 {
+		color: #FFFFFF; 
+		max-height: 60px; 
+		font-size: 22px; 
+		font-weight: bold; 
+		line-height: 3.36; 
+		margin-left:18px;  
+		display: -webkit-box; 
+		-webkit-line-clamp: 2; 
+		-webkit-box-orient: vertical; 
+		text-overflow: ellipsis;
+	}
+	#edit_text2 {
+		max-height: 24px; 
+		margin-top: 8px; 
+		font-size: 15px; 
+		font-weight: 500; 
+		line-height: 1.2; 
+		margin-left: 19px; 
+		color: #FFFFFF; 
+		font-weight: bold; 
+		display: -webkit-box; 
+		-webkit-line-clamp: 1; 
+		-webkit-box-orient: vertical; 
+		text-overflow: ellipsis;
+	}
+	#edit_text3 {
+		margin-left: 154px; 
+		width: 200px; 
+		height:200px; 
+		border-radius: 30px;	
+	}

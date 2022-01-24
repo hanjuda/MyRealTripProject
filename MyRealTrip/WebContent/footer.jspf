@@ -1,0 +1,115 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<link href="css/footer.css" rel="stylesheet" type="text/css"/>
+	<div id="footer_container">
+		<div>
+			<div style="margin-bottom:8px;">
+				<div id="foot_div1">
+					<h5>고객센터 운영안내</h5><br>
+					<div style="margin-top:-41px;">
+						<span class="footer_co1">평일(채팅/유선) :</span> 09:00-18:00 (12시~13시 제외)<br>
+						<span class="footer_co1">주말/공휴일 :</span> 채팅 상담만 가능<br>
+						<span class="footer_co1">※ 항공권 환불/변경 :</span> 09:00-17:00까지 접수 가능<br>
+						<span class="footer_co1">유선상담 :</span> 1670-8208<br>
+						<button class="and_1_chat">1:1채팅 상담</button>
+					</div>
+				</div>
+	
+
+				<div id="foot_div2">
+					<h4>소개</h4>
+					<span>회사소개</span><br><br>
+					<span style="height:36px">채용</span>
+					<br><br>
+					공고
+					<br>
+				</div>
+				
+				<div id="foot_div3">
+					<h4>파트너</h4>
+					파트너 등록하기<br><br>
+					Affiliate 프로그램<br><br>
+					리얼파트너<br><br>
+					파트너 블로그<br>
+				</div>
+				
+				<div id="foot_div4">
+					<h4>지원</h4>
+					자주 묻는 질문<br><br>
+					최저가 보장제<br><br>
+				</div>
+	
+				<div style="clear:both;"></div>	
+			</div>
+	
+			<br>
+			<div id="foot_div5">
+				<div>
+					<div style="padding-top : 3px;">
+						<ul>
+							<li style="float : left;">
+								<a class="footer_Policy">이용 약관</a>
+							</li>
+							<li style="float : left;">
+								<a class="footer_Policy" style="font-weight: bold!important;">개인정보 처리방침</a>
+							</li>
+							<li style="float : left;">
+								<a class="footer_Policy" >취소 및 환불 정책</a>
+							</li>
+						</ul>
+					</div>
+					<ul>		
+						<li style="float:right;">
+							<button id="kobt">
+								<div>
+									<img src="./img/language.svg" alt="language">
+									<span class="lanbt">한국어</span>
+									<img src="./img/arrowdown.svg" style="width: 16px; height: 16px;">
+								</div>
+							</button>
+						</li>						
+						<li>
+							<a class="footer_icon" style="padding-right:20px;" href="https://play.google.com/store/apps/details?id=com.mrt.ducati" target="_blank">
+								<img src="./img/googleplay.svg" alt="googleplay">
+							</a>
+						</li>
+						<li>
+							<a class="footer_icon" href="https://apps.apple.com/app/id1141745032" target="_blank">
+								<img src="./img/appstore.svg" alt="appstore">
+							</a>
+						</li>
+						<li class="footer_iconline">
+							<div> </div>
+						</li>
+						<li>
+							<a class="footer_icon" style="padding-right: 20px;" href="https://www.youtube.com/channel/UC2oeFByIBQjkKXmQjE0U5rQ" target="_blank">
+								<img src="./img/youtube.svg" alt="youtube">
+							</a>
+						</li>
+						<li>
+							<a class="footer_icon" href="https://www.instagram.com/myrealtrip" target="_blank">
+								<img src="./img/instagram.svg" alt="instagram">
+							</a>
+						</li>
+					 	<li>
+					 		<a class="footer_icon" href="https://blog.naver.com/myrealtrip" target="_blank">
+					 			<img src="./img/naver.svg" alt="naver">
+					 		</a>
+					 	</li>
+						<li>
+							<a class="footer_icon" href="https://www.facebook.com/myRealTrip" target="_blank">
+								<img src="./img/facebook.svg" alt="facebook">
+							</a>
+						</li>
+					</ul>
+				</div>
+				<p style="clear : both;">
+					<span class="last_footer_company">
+					    상호명 (주)마이리얼트립 | 대표 이동건 | 개인정보보호책임자 정재훈 | 사업자등록번호 209-81-55339 사업자정보확인 | 통신판매업신고번호 2019-서울서초-0260<br>
+						주소 서울특별시 서초구 강남대로 327, 대륭서초타워 18층(서초동) | 이메일 help@myrealtrip.com | 마케팅/제휴 문의 marketing@myrealtrip.com<br><br>
+						자사는 서울특별시관광협회 공제영업보증보험에 가입되어 있습니다. 마이리얼트립은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 상품·거래정보 및 거래에 대하여 책임을 지지않습니다.
+					</span>
+				</p>
+			</div>  
+		</div>
+	</div>

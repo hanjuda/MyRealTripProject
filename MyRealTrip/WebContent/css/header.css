@@ -1,0 +1,168 @@
+@charset "UTF-8";
+*, ::before, ::after {
+    font-family: "SF Pro KR", "SF Pro Display", "SF Pro Icons", -apple-system, BlinkMacSystemFont, "Noto Sans KR", "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+a{
+	text-decoration : none;
+}
+
+a:visited {text-decoration: none; color:#666d75;}
+a:active {text-decoration: none; color:#666d75;}
+a:link {text-decoration: none; color:#666d75;}
+div#header_member>a:link{text-decoration: none; color:#2b96ed;;}
+div#header_member>a:visited{text-decoration: none; color:#2b96ed;}
+
+#header_member:hover,.header_login_logo:hover,.header_partner_logo:hover{
+		background-color : #f5f6f7;
+		transition-duration : 0.3s;
+	}
+
+#header_search{
+    border: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #f5f6f7;
+	height : 48px;
+    padding: 1px 2px;
+    margin-top: 4px;
+    float : left; 
+    width : 325px; 
+    margin-left : 24px;
+}
+
+.headContainer{
+	color: #666d75;
+	margin: 0 auto;
+	width : 1060px;
+	height : 72px;
+	align-items: center;
+	margin : 0 auto;
+	position : relative;
+}
+
+#searinput{
+	border : none;
+	background-color: #f5f6f7;
+	letter-spacing: -.4px;
+	outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 8x;
+    padding-right: 16px;
+    height : 48px;
+    width : 280px;
+    
+}
+#header_member{
+	color : #2B96ED;
+	border : solid 1px #a7d4f9;
+	border-radius: 2px; 
+	font-weight : bold;
+	float : right;  
+	padding : 8px 30px; 
+	margin-left : 12px; 
+	margin-top : 14px; 
+	width : 65px; 
+	height : 20px;
+	cursor:pointer;
+}
+#header_member:hover{
+	background-color:#f5fbff;
+}
+
+#headContainer2{
+	color: #666d75;
+	margin: 0 auto;
+	width : 1060px;
+	align-items: center;
+	margin : 0 auto;
+	clear : both;
+	padding-left: 4px;
+    padding-right: 4px;
+    line-height: 37px;
+	
+}
+.header_menu{
+	color : #495056;
+	font-size: 16px;
+    font-weight: bold;
+    height : 50px;
+    text-decoration-line : none;
+    margin-right : 22px;
+    float : left;
+    box-sizing: border-box;
+}
+div#big_head_container{
+	border-bottom : 1px solid #dee2e6;
+}
+div.headContainer>div:nth-child(1){
+	float : left;
+}
+img.header_myreal_logo{
+	width : 128px; 
+	height :28px; 
+	margin-top : 14px;
+}
+div#header_search>div{
+	float : left;
+}
+img.header_search_img{
+	width : 25px; 
+	height : 25px; 
+	float : left; 
+	margin-top : 10px; 
+	margin-left : 12px;
+}
+div.header_login_logo{
+	float : right; 
+	font-weight : bold; 
+	padding : 8px 12px; 
+	width : 50px; 
+	margin-top : 14px; 
+	height : 22px;
+	cursor:pointer;
+}
+
+div.header_partner_logo{
+	float : right; 
+	padding : 8px 12px; 
+	font-weight : bold; 
+	width : 117px; 
+	margin-top : 14px; 
+	height : 22px;
+	cursor:pointer;
+}
+img.header_new_img{
+	position: absolute; 
+	top: 4px;
+	width:12px; 
+	height : 12px;
+
+}
+div#headContainer2 div>a:hover{
+	border-bottom: 3px solid #79bef5;
+}
+
+.penguin{
+	width : 32px;
+	height : 32px;
+}
+.logout_box{
+	display : flex;
+	justify-content: end;
+}
+.logout_box>div{
+	margin-left: 5px;
+   	padding: 18px 10px;
+   	border-radius: 3px;
+   	font-size: 15px;
+   	font-weight: 600;
+   	cursor : pointer;
+}
+#penguin_box{
+	margin-bottom: -8px;
+   	margin-top: -5px;
+}
+	
+

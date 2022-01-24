@@ -1,0 +1,123 @@
+@charset "UTF-8";
+div#join_container{
+		width : 332px;
+		border : 1px solid #dfdfdf;
+		margin : 0 auto;
+		padding : 44px;
+	}
+	#div2{
+	width: 308px;
+	margin-top: 16px;
+    margin-bottom: 10px;
+    padding: 16px 8px 16px 16px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 14px;
+    color: rgb(55, 58, 60);
+	}
+	#join_container p:not(.add_p){
+		margin-bottom: 8px;
+    	margin-top: 0px;
+   	    color: rgb(73, 80, 86);
+    	font-size: 14px;
+	}
+	#join_container input{
+		margin-bottom: 16px;
+	}
+	#join_container input[type="text"] {
+		width: 308px;
+		border-radius: 2px;
+		border: 0;
+		box-shadow: 0 0 0 1px #ced4da inset;
+		background-color: #fff;
+		font-weight: 500;
+		color: #343a40;
+		transition: box-shadow .2s ease;
+	    height: 40px;
+	    padding-left: 12px;
+	    padding-right: 12px;
+	    font-size: 14px;	
+	}
+	#join_container input[type="password"] {
+		width: 308px;
+		border-radius: 2px;
+		border: 0;
+		box-shadow: 0 0 0 1px #ced4da inset;
+		background-color: #fff;
+		font-weight: 500;
+		color: #343a40;
+		transition: box-shadow .2s ease;
+	    height: 40px;
+	    padding-left: 12px;
+	    padding-right: 12px;
+	    font-size: 14px;	
+	}
+	#join_container input[type="text"]:focus {
+		outline: 2px solid rgb(43, 150, 237);
+		}
+	#join_container input[type="password"]:focus {
+		outline: 2px solid rgb(43, 150, 237);
+		}
+	
+	#join_container input[type="text"]:focus::placeholder {
+ 		color: transparent;
+	}
+	#join_container input[type="password"]:focus::placeholder {
+ 		color: transparent;
+	}
+	#join_container .arrow1 {
+	    width: 11px;
+	    height: 14px;
+	    margin-top: 1px;
+    }
+    .fr {
+    	float:right;
+    }
+	#all_agree {
+		line-height: 1.5;
+	    letter-spacing: -.2px;
+	    font-size:14px;
+	    font-weight:700;
+	}
+	#join_container input[type="checkbox"] {
+		width: 20px;
+	    height: 20px;
+	    position: relative;
+	    top: 5px;
+	}
+	#join_container input[type="checkbox"]:checked {
+	    background:rgb(81, 171, 243);
+    }
+    #join_container input[type="checkbox"]:checked:after {
+	  display: block;
+	}
+	#membt{
+		border: 1px solid #cbe7fd;
+ 		background-color: #cbe7fd;
+		height: 48px;
+		font-size: 16px;
+		color: #fff;
+		border-radius: 4px;
+		width : 332px;
+		cursor: no-drop;
+	}
+	#strawberry {
+	font-size: 12px; 
+	color: #848c94;
+	margin-left: 32px; 
+	margin-top: 4px;
+	}
+	#join_big_container{
+		width : 100%; 
+		height : 100%; 
+		margin: 80px 0;
+	}
+	p.join_small_font{
+		color :#848c94; 
+		font-size: 12px !important; 
+	}
+	p.add_p{
+		color : #ff8000; 
+		font-size : 12px;
+		margin-top: -8px;
+	}
